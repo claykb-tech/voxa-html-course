@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.logo {
+    color: purple;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+.menu a {
+    color: blue;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu a img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.icons img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
